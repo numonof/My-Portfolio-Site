@@ -430,6 +430,9 @@ td {
 }
 
 .aboute-btn__group {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
     padding-top: 35px;
 }
 /* About section end */
@@ -1576,6 +1579,10 @@ footer .container {
     }
 
     .aboute-btn__group {
+        
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
         padding-top: 35px;
     }
     /* About section end */
@@ -2603,7 +2610,10 @@ footer .container {
     }
 
     .aboute-btn__group {
-        padding-top: 35px;
+
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;        padding-top: 35px;
     }
     /* About section end */
     /* Services */
@@ -3546,6 +3556,10 @@ footer .container {
     }
 
     .aboute-btn__group {
+        
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
         padding-top: 35px;
     }
     /* About section end */
@@ -4499,6 +4513,10 @@ footer .container {
     }
 
     .aboute-btn__group {
+        
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
         padding-top: 35px;
         z-index: 11;
     }
@@ -5503,6 +5521,10 @@ footer .container {
     }
 
     .aboute-btn__group {
+        
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
         padding-top: 35px;
         z-index: 11;
     }
