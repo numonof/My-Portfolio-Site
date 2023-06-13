@@ -157,7 +157,7 @@ section {
     content: '';
     width: 100%;
     height: 100%;
-    background: url("../images/home-before.svg");
+    background: url("../images/Bg/home-before.svg");
     background-repeat: no-repeat;
     transform: rotate(-180deg);
     background-size: cover;
@@ -241,7 +241,7 @@ section {
     width: 100%;
     height: 375px;
     margin: 0 auto;
-    background: url("../images/about-img.JPG");
+    background: url("../images/Bg/about-img.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 0;
@@ -818,19 +818,6 @@ td {
     position: relative;
     z-index: 111;
 }
-#portfolio::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: '';
-    width: 100%;
-    height: 50%;
-    background: url("../images/wave.svg");
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
-    background-size: cover;
-    z-index: 0;
-}
 #portfolio::after {
     position: absolute;
     left: 0;
@@ -838,7 +825,7 @@ td {
     content: '';
     width: 100%;
     height: 50%;
-    background: url("../images/wave.svg");
+    background: url("../images/Bg/wave.svg");
     background-repeat: no-repeat;
     transform: rotate(360deg);
     background-size: cover;
@@ -1346,7 +1333,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/home-before.svg");
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -1396,6 +1383,36 @@ footer .container {
         margin: 0;
         padding-left: 20px;
     }
+    .social{
+        position: fixed;
+        top: 50%;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+    }
+    
+.social-btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10%;
+    transition: all 0.3s;
+    background-color: var(--duble-text-color);
+}
+.social > a:hover {
+    background-color: #fff;
+    color:var(--bg-color);
+}
+
 
     /* Home section end */
     /* Aboute section */
@@ -1418,7 +1435,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -1597,19 +1614,6 @@ footer .container {
         width: 100%;
         padding: 0 20px;
         z-index: 11;
-    }
-
-    .services::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/2.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
     }
     #services .container {
         max-width: 360px;
@@ -1801,7 +1805,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/low-poly-grid-haikei9.svg");
+        background: url("../images/Bg/skils375.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -1854,7 +1858,7 @@ footer .container {
         position: relative;
         width: 315px;
         height: 100%;
-        background-color: var(--bg-dark-color);
+        background-color: var(--bg-color);
         padding: 18px 12px;
         margin: 0;
     }
@@ -1933,19 +1937,6 @@ footer .container {
         position: relative;
         z-index: 111;
     }
-    #portfolio::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/blob-haikei11.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
     #portfolio::after {
         position: absolute;
         left: 0;
@@ -1953,7 +1944,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 10%;
-        background: url("../images/blob-haikei11.svg");
+        background: url("../images/Bg/skils375.svg");
         background-repeat: no-repeat;
         transform: rotate(360deg);
         background-size: cover;
@@ -2450,7 +2441,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -2627,18 +2618,18 @@ footer .container {
         padding: 0 20px;
     }
 
-    .services::before {
+    /* .services::before {
         position: absolute;
         top: 0;
         left: 0;
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
-    }
+    } */
     .services__info {
         text-align: center;
     }
@@ -2830,26 +2821,12 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/low-poly-grid-haikei9.svg");
+        background: url("../images/Bg/skils375.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
         z-index: -0;
     }
-    /* #skils::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/layered-waves-haikei8.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-360deg);
-        background-size: cover;
-        z-index: -0;
-    } */
-
     .skils__info {
         text-align: center;
     }
@@ -2897,7 +2874,7 @@ footer .container {
         position: relative;
         width: 315px;
         height: 100%;
-        background-color: var(--bg-dark-color);
+        background-color: var(--bg-color);
         padding: 18px 12px;
         margin: 0;
     }
@@ -2973,19 +2950,6 @@ footer .container {
         position: relative;
         z-index: 11;
     }
-    #portfolio::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/blob-haikei11.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
     #portfolio::after {
         position: absolute;
         left: 0;
@@ -2993,7 +2957,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 10%;
-        background: url("../images/blob-haikei11.svg");
+        background: url("../images/Bg/portfolio375.svg");
         background-repeat: no-repeat;
         transform: rotate(360deg);
         background-size: cover;
@@ -3357,7 +3321,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -3423,7 +3387,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 0;
@@ -3574,31 +3538,18 @@ footer .container {
         padding: 0 20px;
     }
 
-    .services::before {
+    /* .services::before {
         position: absolute;
         top: 0;
         left: 0;
         content: '';
         width: 100%;
-        height: 50%;
-        background: url("../images/home-before.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-    }
-    .services::after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        content: '';
-        width: 100%;
         height: 100%;
-        background: url("../images/low-poly-grid-haikei.svg");
+        background: url("../images/Bg/services576.svg");
         background-repeat: no-repeat;
-        transform: rotate(180deg);
         background-size: cover;
         z-index: -1;
-    }
+    } */
     .services__info {
         text-align: center;
     }
@@ -3677,15 +3628,16 @@ footer .container {
 
     #team::before {
         position: absolute;
-        top: 0;
         left: 0;
+        bottom: 0;
         content: '';
         width: 100%;
-        height: 100%;
-        background: url("../images/blob-haikei11.svg");
+        height: 40%;
+        background: url("../images/Bg//home-before.svg");
         background-repeat: no-repeat;
+        transform: rotate(360deg);
         background-size: cover;
-        z-index: 0;
+        z-index: -0;
     }
     .slide-content {
         margin: 0 10px;
@@ -3806,8 +3758,8 @@ footer .container {
         top: 0;
         content: '';
         width: 100%;
-        height: 40%;
-        background: url("../images/home-before.svg");
+        height: 100%;
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -3937,19 +3889,6 @@ footer .container {
         position: relative;
         z-index: 11;
     }
-    #portfolio::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/home-before.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
     #portfolio::after {
         position: absolute;
         left: 0;
@@ -3957,7 +3896,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 50%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         transform: rotate(360deg);
         background-size: cover;
@@ -4307,7 +4246,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/home-before.svg");
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -4376,7 +4315,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 0;
@@ -4532,32 +4471,6 @@ footer .container {
         width: 100%;
         padding: 0 20px;
     }
-    #services::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-    #services::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(360deg);
-        background-size: cover;
-        z-index: 0;
-    }
     .services__info {
         text-align: center;
     }
@@ -4629,20 +4542,6 @@ footer .container {
         position: relative;
         z-index: 11;
     }
-    #team::before {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/team-before.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-
     .slide-content {
         margin: 0 10px;
     }
@@ -4893,28 +4792,14 @@ footer .container {
     .portfolio > .container {
         position: relative;
         z-index: 111;
-    }
-    #portfolio::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-    #portfolio::after {
+    }#portfolio::after {
         position: absolute;
         left: 0;
         bottom: 0;
         content: '';
         width: 100%;
         height: 50%;
-        background: url("../images/wave.svg");
+        background: url("../images/Bg/wave.svg");
         background-repeat: no-repeat;
         transform: rotate(360deg);
         background-size: cover;
@@ -4989,32 +4874,6 @@ footer .container {
     #contact {
         padding: 60px 20px;
         position: relative;
-    }
-    #services::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-    #contact::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: -1;
     }
     .contact__head {
         padding-bottom: 25px;
@@ -5315,7 +5174,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/home-before.svg");
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -5384,7 +5243,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/2.svg");
+        background: url("../images/Bg/2.svg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 0;
@@ -5540,32 +5399,6 @@ footer .container {
         width: 100%;
         padding: 0 20px;
     }
-    #services::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-    #services::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(360deg);
-        background-size: cover;
-        z-index: 0;
-    }
     .services__info {
         text-align: center;
     }
@@ -5633,24 +5466,24 @@ footer .container {
         background-color: var(--bg-dark-color);
         position: relative;
     }
-    #team > .container {
-        position: relative;
-        z-index: 11;
-    }
-    #team::before {
+    #team::after {
         position: absolute;
         left: 0;
         bottom: 0;
         content: '';
         width: 100%;
-        height: 100%;
-        background: url("../images/team-before.svg");
+        height: 50%;
+        background: url("../images/Bg//home-before.svg");
         background-repeat: no-repeat;
-        transform: rotate(-180deg);
+        transform: rotate(360deg);
         background-size: cover;
-        z-index: 0;
+        z-index: -0;
     }
 
+    #team > .container {
+        position: relative;
+        z-index: 11;
+    }
     .slide-content {
         margin: 0 10px;
     }
@@ -5763,33 +5596,7 @@ footer .container {
         width: 100%;
         position: relative;
     }
-    #skils::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 40%;
-        background: url("../images/home-before.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-180deg);
-        background-size: cover;
-        z-index: -0;
-    }
-    #skils::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/2.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-360deg);
-        background-size: cover;
-        z-index: -0;
-    }
-
+    
     .skils__info {
         text-align: center;
     }
@@ -5902,19 +5709,6 @@ footer .container {
         position: relative;
         z-index: 111;
     }
-    #portfolio::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
     #portfolio::after {
         position: absolute;
         left: 0;
@@ -5922,7 +5716,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 50%;
-        background: url("../images/wave.svg");
+        background: url("../images/Bg/wave.svg");
         background-repeat: no-repeat;
         transform: rotate(360deg);
         background-size: cover;
@@ -5997,32 +5791,6 @@ footer .container {
     #contact {
         padding: 60px 20px;
         position: relative;
-    }
-    #services::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: '';
-        width: 100%;
-        height: 50%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-    #contact::after {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/wave.svg");
-        background-repeat: no-repeat;
-        transform: rotate(180deg);
-        background-size: cover;
-        z-index: -1;
     }
     .contact__head {
         padding-bottom: 25px;
@@ -6323,7 +6091,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/home-before.svg");
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -6438,20 +6206,6 @@ footer .container {
         position: relative;
         z-index: 11;
     }
-    #team::before {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/team-before.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-
     .slide-content {
         margin: 0 10px;
     }
@@ -6585,10 +6339,24 @@ footer .container {
     /* Skils section end */
 
     /* Portfolio section*/
-    .portfolio {
+    #portfolio {
         background-color: var(--bg-dark-color);
         position: relative;
         z-index: 11;
+        overflow: hidden;
+    }
+    #portfolio::after {
+        position: absolute;
+        left: 0;
+        bottom: 0%;
+        content: '';
+        width: 100%;
+        height: 50%;
+        background: url(../images/Bg/home-before.svg);
+        background-repeat: no-repeat;
+        transform: rotate(360deg);
+        background-size: cover;
+        z-index: -1;
     }
     .portfolio > .container {
         position: relative;
@@ -6618,8 +6386,9 @@ footer .container {
     /* Portfolio End */
     #contact {
         padding: 60px 20px;
-        position: relative;
+        position: relative;z-index: 111;
     }
+    
     .contact__dec {
         font-size: 16px;
         color: var(--text-color);
@@ -6848,7 +6617,7 @@ footer .container {
         content: '';
         width: 100%;
         height: 100%;
-        background: url("../images/home-before.svg");
+        background: url("../images/Bg/home-before.svg");
         background-repeat: no-repeat;
         transform: rotate(-180deg);
         background-size: cover;
@@ -6963,20 +6732,6 @@ footer .container {
         position: relative;
         z-index: 11;
     }
-    #team::before {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        background: url("../images/team-before.svg");
-        background-repeat: no-repeat;
-        transform: rotate(-180deg);
-        background-size: cover;
-        z-index: 0;
-    }
-
     .slide-content {
         margin: 0 10px;
     }
@@ -7162,6 +6917,7 @@ footer .container {
     footer {
         padding: 20px;
         background-color: var(--bg-dark-color);
+        
     }
 
     footer .container {
