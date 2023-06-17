@@ -63,10 +63,12 @@ let showModal = document.querySelector('.open_modal');
 let modal = document.querySelector('.modal');
 let closeModalBtn = document.querySelector('.close-modal');
 let owerlay = document.querySelector('.modal_owerlay');
+let ModalSection = document.querySelector('.modal-section');
 // Open Modal
 const openModal = function(){
     modal.classList.remove('hidden');
     owerlay.classList.remove('hidden');
+    ModalSection.classList.add('block');
 }
 
 showModal.addEventListener('click', openModal)
@@ -74,6 +76,7 @@ showModal.addEventListener('click', openModal)
 const closeModal = function(){
     modal.classList.add('hidden');
     owerlay.classList.add('hidden');
+    ModalSection.classList.remove('block');
 }
 closeModalBtn.addEventListener( 'click', closeModal);
 owerlay.addEventListener( 'click', closeModal);
@@ -84,3 +87,4 @@ document.addEventListener( 'keydown' , function (evt) {
     }
 })
 closeModal()
+
