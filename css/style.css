@@ -1496,12 +1496,28 @@ footer .container {
         background-color: var(--duble-text-color);
     }
 
+    .modal {
+    padding:20px;
+    }
     .book-blog-list {
         width: 100%;
         margin: 0;
         padding: 0;
         flex-direction: column;
     }
+    
+.book-blog__title {
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0.5rem 0;
+}
     /* Home section end */
     /* Aboute section */
     #about {
@@ -2270,7 +2286,7 @@ footer .container {
     .blog-item-media {
         width: 100%;
         height: 100%;
-        padding: 25px;
+        padding: 0;
     }
     .blog-item-media > img {
         width: 100%;
@@ -2301,7 +2317,7 @@ footer .container {
     }
     .blog-item-dec {
         position: relative;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 30px;
         font-weight: 400;
         letter-spacing: 1px;
